@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Viajes TCYU ofrece paquetes turísticos de Venezuela en moneda de dolares. Viajes seguros, destinos variados y atención confiable para disfrutar cada experiencia.">
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="preconnect" href="htztps://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Venezuela Viajes</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="emcabezado"> 
+                <div>
+                    <img src="../medias/imagenes/logo/VenezuelaViajes.PNG" alt="Logo Viajes TCYU" class="logo">
+                </div>
+                <div class="container_navegador">
+                    <div class="navegador">
+                        <li><a href="../pages/paquetes.html">Paquetes</a></li>
+                        <li><a href="../pages/full_day.html">Full Day</a></li>
+                        <li><a href="../pages/promociones.html">Promociones</a></li>
+                    </div><br>
+                </div>
+                <div class="container_login"> 
+                    <div class="login" id="zonaLogin"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="container_buscador fondo" id="miDiv" data-src="../medias/imagenes/Producto/SaltoAngel1.PNG" data-alt="Salto Angel">
+                    <h1>Conoce los Mejores Destinos en Venezuela</h1>
+                    <h3>Explora los Paisajes Impresionantes y Crea Recuerdos Inolvidables.</h3>
+                    <br>
+                    <div class="buscador-container">
+                        <div class="buscador">
+                            <input type="text" id="inputBuscador" placeholder="Buscar destinos...">
+                            <span class="icono-lupa">🔍</span>
+                        </div>
+                        <ul id="listaResultados" class="resultados"></ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section>
+            <h2>Los Mas Vistos</h2>
+            <div class="container_destinos" id="card_destino" id="miDiv"></div>
+        </section>
+        <br>
+        <section>
+            <h2>Video del día... Visita a Los Roques</h2>
+            <div class="container_video">
+                <video id="miDiv" swidth="600" height="400" preload="metadata" controls>
+                <source src="../medias/videos/videoplayback.mp4" type="video/mp4"> Esta pagina no soporta el video
+                <track src="../medias/videos/transcripcion-2.vtt" srclang="es" label="Español">
+                Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div> 
+         </section>
+        <br>
+        <section class="container_publicidad">
+            <h2>Publicidad</h2>
+            <div class="publicidad_contenido">  
+                <h3>Traslados particulares</h3>
+                <h3>Desde los puntos más importantes del país</h3>
+                <a href="#" class="publicidad_boton">Más información</a>
+            </div>
+        </section>
+        <br>
+    </main>
+    <br>
+    <footer id="footer">
+    <div class="footer_top">
+        <!-- Redes -->
+        <div class="footer_block">
+            <h2>Redes</h2>
+            <div class="footer_content">
+                <p>Tu puerta de entrada a las maravillas de Venezuela.</p>
+                <p>Creando recuerdos desde 2010.</p>
+                <a href="https://www.tiktok.com/es-419/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-tiktok"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.083 2h-4.083a1 1 0 0 0 -1 1v11.5a1.5 1.5 0 1 1 -2.519 -1.1l.12 -.1a1 1 0 0 0 .399 -.8v-4.326a1 1 0 0 0 -1.23 -.974a7.5 7.5 0 0 0 1.73 14.8l.243 -.005a7.5 7.5 0 0 0 7.257 -7.495v-2.7l.311 .153c1.122 .53 2.333 .868 3.59 .993a1 1 0 0 0 1.099 -.996v-4.033a1 1 0 0 0 -.834 -.986a5.005 5.005 0 0 1 -4.097 -4.096a1 1 0 0 0 -.986 -.835z" /></svg></a>
+                <a href="https://www.instagram.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-8a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-4 5a4 4 0 0 0 -3.995 3.8l-.005 .2a4 4 0 1 0 4 -4m4.5 -1.5a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" /></svg></a>
+                <a href="https://www.youtube.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z" /></svg></a>
+            </div>
+        </div>
+
+        <!-- Mapa -->
+        <div class="footer_block">
+            <h2>Nuestra Localización</h2>
+            <div class="footer_content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.0152539941914!2d-66.82547564800632!3d10.499463327787963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5973b8799339%3A0x54c29264150c1211!2sEdificio%20Tecno%20Avila!5e0!3m2!1ses-419!2sar!4v1760484551972!5m2!1ses-419!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        style="border:0;" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <!-- Links -->
+        <div class="footer_block">
+            <h2>Otros links</h2>
+            <div class="footer_content">
+                <ul>
+                    <li><a href="../pages/paquetes.html">PAQUETES</a></li>
+                    <li><a href="../pages/full_day.html">FULL DAY</a></li>
+                    <li><a href="../pages/promociones.html">PROMOCIONES</a></li>
+                    <li><a href="../pages/footer_formas_de pago.html">METODOS DE PAGO</a></li>
+                    <li><a href="../pages/footer_condiciones.html">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parte inferior -->
+    <div class="footer_bottom">
+        <div class="whatsapp_box">
+            <p>Chatea con nosotros y</p>
+            <p>consulta sobre nuestros paquetes</p>
+            <a href="https://wa.me/52114567565?text=Hola%20quisiera%20informaci%C3%B3n" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#3aec09" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.497 4.409a10 10 0 0 1 -10.36 16.828l-.223 -.098l-4.759 .849l-.11 .011a1 1 0 0 1 -.11 0l-.102 -.013l-.108 -.024l-.105 -.037l-.099 -.047l-.093 -.058l-.014 -.011l-.012 -.007l-.086 -.073l-.077 -.08l-.067 -.088l-.056 -.094l-.034 -.07l-.04 -.108l-.028 -.128l-.012 -.102a1 1 0 0 1 0 -.125l.012 -.1l.024 -.11l.045 -.122l1.433 -3.304l-.009 -.014a10 10 0 0 1 1.549 -12.454l.215 -.203a10 10 0 0 1 13.226 -.217m-8.997 3.09a1.5 1.5 0 0 0 -1.5 1.5v1a6 6 0 0 0 6 6h1a1.5 1.5 0 0 0 0 -3h-1l-.144 .007a1.5 1.5 0 0 0 -1.128 .697l-.042 .074l-.022 -.007a4.01 4.01 0 0 1 -2.435 -2.435l-.008 -.023l.075 -.041a1.5 1.5 0 0 0 .704 -1.272v-1a1.5 1.5 0 0 0 -1.5 -1.5" /></svg>
+            </a>
+        </div>
+        <p>Copyright © 2025</p>
+    </div>
+</footer>
+    <script src="../js/index.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html> 
