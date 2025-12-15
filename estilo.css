@@ -286,7 +286,7 @@ video{
     padding: 40px 20px;
     text-align: center;
     /* Imagen de fondo */
-    background-image: url('../medias/imagenes/publicidad/fondo.jpg');
+    background-image: url('medias/imagenes/publicidad/fondo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -313,7 +313,7 @@ video{
 }
 
 .publicidad_contenido {
-    background-image: url('../medias/imagenes/publicidad/carros_en_alquiler.jpg');
+    background-image: url('medias/imagenes/publicidad/carros_en_alquiler.jpg');
     margin-top: 20px;
 }
 
